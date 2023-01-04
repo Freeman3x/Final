@@ -38,4 +38,6 @@ void Simvol(string[] array)
     }
 }
 
-
+ShowNewArray(CreatedNewArray());
+Console.WriteLine();
+Simvol(CreatedNewArray());
