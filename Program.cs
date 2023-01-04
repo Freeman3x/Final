@@ -26,4 +26,16 @@ void ShowNewArray(string[] array)
    }
 }
 
+void Simvol(string[] array)
+{
+    string[] a = new string[5];
+    for(int i = 0;i < array.Length;i++)
+    {
+        if(array[i].Length <= 3)
+        {
+            Console.Write(array[i] + " ");
+        }
+    }
+}
+
 
